@@ -1,17 +1,17 @@
 # Dependencies
-node_modules
+node_modules/
 
 # Build
-dist
+dist/
 
-# Local
+# Local / IDE
 .DS_Store
 *.local
+.vercel/
 
 # Logs
 *.log
 npm-debug.log*
 
-# Editor
-.vscode/*
-!.vscode/extensions.json
+# Backup (optional)
+Backup/
